@@ -2,23 +2,23 @@
 
 Implementação em 1, 2 e 3 dimensões. Estado binários, e vizinhos diagonais não são considerados. Todos com uma única medida de dimensão, ou seja, no 2d, sempre um quadrado, e no 3d, sempre um cubo. Esse repositório contém o simulador 2d e as classes que implementam os autômatos, com suas respectivas funcionalidades
 
-# CellAutomataSim
+## CellAutomataSim
 
 Simulador do autômato 2D, que processa as regras e mostra as transições do autômato através de uma interface gráfica que reage aos cliques nas células, alterando os seus estados atuais
 
-## Como utilizar?
+### Como utilizar?
 
 Para utilizar, basta digitar uma regra, clicar em "Change rule" e apertar o play. No caso de regras pares, é necessário clicar em alguma célula para obter resultados diferentes. A interface gráfica contém a funcionalidade de pausar a simulação, mudar o framerate, e o tamanho do autômato, além da botão "Clear" que limpa o autômato (é necessário pausar antes de apertar o "Clear")
 
-# Classes CellularAutomata
+## Classes CellularAutomata
 
-## Unidimensional
+### Unidimensional
 
 Regras possíveis - de 0 a 255 (considerando extinção, superpopulação e estagnação)
 
 Modelo mais simples de autômato, com poucas regras possíveis, porém com algumas que geram padrões interessantes
 
-## Bidimensional
+### Bidimensional
 
 Regras possíveis - de 0 a 2^32 (considerando extinção, superpopulação, e estagnação)
 
@@ -26,7 +26,7 @@ Esse modelo cresce bastante no sentido de padrões possíveis através, tando da
 
 Obs: está um pouco bagunçado por conta das classes de interface gráfica
 
-## Tridimensional
+### Tridimensional
 
 Único documentado
 
@@ -44,7 +44,7 @@ zeros o que pode contribuir para uma extinção.
 Por fim, a classe também possui dois métodos para o teste de qualidade da semente (conjunto da regra), que gera vários frames com com a semente, e checa se em algumas dessas iterações foram gerados 
 padrões repetidos (frames idênticos, extinção, superpopulação, estagnação). fastSeedTest(regra) -> 100 iterações, goodSeedTest(regra) -> 100.000 iterações.
 
-## Como utilizar?
+### Como utilizar?
 
 Adicione o arquivo "cellular-automata" no classPath do seu projeto. Depois, basta importar as classes que deseja utilizar.
 Os três modelos são exatamente iguais na utilização, porém recomendo o modelo 3d, por possuir mais funcionalidades e estar mais detalhado.
