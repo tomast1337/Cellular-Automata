@@ -33,7 +33,7 @@ Obs: está um pouco bagunçado por conta das classes de interface gráfica
 Regras possíveis - de 0 a 2^128 (considerando extinção, superpopulação, e estagnação)
 
 Basicamente o foco do meu trabalho foi com o modelo de três dimensões, uma vez que a quantidade de regras é ridículamente grande (constituído por dois números do tipo LONG). A classe
-CellularAutomata3D conta não só com a implementação básica do autômato, mas inclui geradores de números inteiros aleatórios, em vários níveis de qualidade, determinada pela quantidade
+CellularAutomata3D conta não só com a implementação básica do autômato, mas inclui geradores de números inteiros pseudo-aleatórios, em vários níveis de qualidade, determinada pela quantidade
 de recursividade utilizada no algoritmo. É bastante interessante ver a geração desses números a partir do autômato. Dependendo do nível da aleatoriedade escolhido, ele não costuma repetir
 os números, mas de vez em quando acontece. Não sei dizer o quão bom é o algoritmo, no que tange a aleatoridade, uma vez que ele utiliza um fator da máquina como ponto de partida. Outra coisa
 é que o algoritmo não está muito bem otimizado, e pode ser que processar os números leve algum tempo, dependendo da qualidade do algoritmo.
@@ -41,7 +41,7 @@ os números, mas de vez em quando acontece. Não sei dizer o quão bom é o algo
 Além disso, possui também métodos estáticos para a obtenção da regra, o que é recomendável, visto que como a regra é constituídade de vários bits, se o número for pequeno, a regra terá muitos
 zeros o que pode contribuir para uma extinção.
 
-Por fim, a classe também possui dois métodos para o teste de qualidade da semente (conjunto da regra), que gera vários frames com com a semente, e checa se em algumas dessas iterações foram gerados 
+Por fim, a classe também possui dois métodos para o teste de qualidade da semente (conjunto da regra), que gera vários frames com a semente, e checa se em algumas dessas iterações foram gerados 
 padrões repetidos (frames idênticos, extinção, superpopulação, estagnação). fastSeedTest(regra) -> 100 iterações, goodSeedTest(regra) -> 100.000 iterações.
 
 ### Como utilizar?
