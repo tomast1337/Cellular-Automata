@@ -8,7 +8,7 @@ Simulador do autômato 2D, que processa as regras e mostra as transições do au
 
 ### Como utilizar?
 
-Para utilizar, basta digitar uma regra, clicar em "Change rule" e apertar o play. No caso de regras pares, é necessário clicar em alguma célula para obter resultados diferentes. A interface gráfica contém a funcionalidade de pausar a simulação, mudar o framerate, e o tamanho do autômato, além da botão "Clear" que limpa o autômato (é necessário pausar antes de apertar o "Clear")
+Para utilizar, basta digitar uma regra, clicar em "Change rule" e apertar o play. No caso de regras pares, é necessário clicar em alguma célula para obter resultados diferentes. A interface gráfica contém a funcionalidade de pausar a simulação, mudar o framerate, e o tamanho do autômato, além do botão "Clear" que limpa o autômato (é necessário pausar antes de apertar o "Clear")
 
 ## Classes CellularAutomata
 
