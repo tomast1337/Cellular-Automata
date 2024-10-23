@@ -16,7 +16,7 @@ Simulador do autômato 2D, que processa as regras e mostra as transições do au
 
 <img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGl0cGFtYnAyem90bWNpajF5bno1ZnIxNXR6OHhqbHFjb3BhNjJkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wSTyFH6CK8Sxyf9BRR/giphy.gif'/>
 
-![aagr](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3ozdGZ3M3BzaWtqNTg4ZTJoaDl6cXRxZHg1bHNxeTF0c3UzY3h4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H0rP9IwniQOF7pYVs4/giphy.gif)
+<img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2dpdndvcWNmd3VxZDZtYXRqNzJ0Y3dkMnFyNHFvc2lmMmJ6dXU2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H0rP9IwniQOF7pYVs4/giphy.webp'/>
 
 ### Como utilizar?
 
