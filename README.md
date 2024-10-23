@@ -6,9 +6,23 @@ Implementação em 1, 2 e 3 dimensões. Estado binários, e vizinhos diagonais n
 
 Simulador do autômato 2D, que processa as regras e mostra as transições do autômato através de uma interface gráfica que reage aos cliques nas células, alterando os seus estados atuais
 
+### Exemplos
+
+<div style='display: inline'>
+
+<img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczFqOG1vZWFzMHBjczliam93bDE5aTVmOGljcGNvMGx3NGNodzNiaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pQlISDt9EfatURkhdX/giphy.webp'/>
+
+<img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWY0ZzJreW03cGVldTEzaTMydXp5bjhiMW10bjd5Y2s4bzd4NWhuNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/51qWIasvThtdDdOK9f/giphy.gif'/>
+
+<img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGl0cGFtYnAyem90bWNpajF5bno1ZnIxNXR6OHhqbHFjb3BhNjJkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wSTyFH6CK8Sxyf9BRR/giphy.gif'/>
+
+![aagr](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3ozdGZ3M3BzaWtqNTg4ZTJoaDl6cXRxZHg1bHNxeTF0c3UzY3h4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H0rP9IwniQOF7pYVs4/giphy.gif)
+
 ### Como utilizar?
 
 Para utilizar, basta digitar uma regra, clicar em "Change rule" e apertar o play. No caso de regras pares, é necessário clicar em alguma célula para obter resultados diferentes. A interface gráfica contém a funcionalidade de pausar a simulação, mudar o framerate, e o tamanho do autômato, além do botão "Clear" que limpa o autômato (é necessário pausar antes de apertar o "Clear")
+
+<a href="https://ibb.co/PWVxkfG"><img src="https://i.ibb.co/gWcyYBZ/img.jpg" alt="img" border="0"></a>
 
 ## Classes CellularAutomata
 
