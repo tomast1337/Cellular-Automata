@@ -2,6 +2,23 @@
 
 Implementação em 1, 2 e 3 dimensões. Estado binários, e vizinhos diagonais não são considerados. Todos com uma única medida de dimensão, ou seja, no 2d, sempre um quadrado, e no 3d, sempre um cubo. Esse repositório contém o simulador 2d e as classes que implementam os autômatos, com suas respectivas funcionalidades
 
+### Observações sobre a versão do Java
+
+Esse projeto foi compilado na versão 21 do Java, tanto o .jar com o simulador, quanto as classes utilitárias. Caso necessite de recompilá-los, faça:
+
+```
+cd src
+javac $(find . -name "*.java")
+
+```
+
+Para utilizar o simulador, basta executar a classe principal:
+
+```
+cd src //No caso de você não estar dentro do diretório
+java br.com.erick.ac.view.CellularAutomata
+```
+
 ## CellAutomataSim
 
 Simulador do autômato 2D, que processa as regras e mostra as transições do autômato através de uma interface gráfica que reage aos cliques nas células, alterando os seus estados atuais
