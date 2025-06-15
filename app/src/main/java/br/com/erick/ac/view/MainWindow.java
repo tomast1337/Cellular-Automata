@@ -78,10 +78,6 @@ public class MainWindow extends JFrame implements ButtonListener{
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setVisible(true);
 	}
-	
-	public static void main(String[] args) {
-		new MainWindow(100);
-	}
 
 	@Override
 	public void actionPerformed(Events e) {

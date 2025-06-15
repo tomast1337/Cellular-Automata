@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "br.com.erick.ac.view.MainWindow"
+    mainClass = "br.com.erick.ac.Main"
 }
 
 tasks.named<Test>("test") {
