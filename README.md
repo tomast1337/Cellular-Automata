@@ -2,22 +2,31 @@
 
 Implementação em 1, 2 e 3 dimensões. Estado binários, e vizinhos diagonais não são considerados. Todos com uma única medida de dimensão, ou seja, no 2d, sempre um quadrado, e no 3d, sempre um cubo. Esse repositório contém o simulador 2d e as classes que implementam os autômatos, com suas respectivas funcionalidades
 
-### Observações sobre a versão do Java
+### Instruções para rodar com o Java 21 com Gradle
 
-Esse projeto foi compilado na versão 21 do Java, tanto o .jar com o simulador, quanto as classes utilitárias. Caso necessite de recompilá-los, faça:
+## Pré-requisitos
 
+- JDK 21 instalado
+
+## Comandos principais
+
+1. **Compilar o projeto**:
+
+```bash
+./gradlew build
 ```
-cd src
-javac $(find . -name "*.java")
 
+2. **Executar o simulador**:
+
+```bash
+./gradlew run
 ```
 
-Para utilizar o simulador, basta executar a classe principal:
+## Comandos úteis
 
-```
-cd src //No caso de você não estar dentro do diretório
-java br.com.erick.ac.view.CellularAutomata
-```
+- Limpar e recompilar: `./gradlew clean build`
+- Gerar JAR executável: `./gradlew jar`
+- Executar com argumentos: `./gradlew run --args="seus_argumentos"`
 
 ## CellAutomataSim
 
@@ -72,7 +81,7 @@ os números, mas de vez em quando acontece. Não sei dizer o quão bom é o algo
 Além disso, possui também métodos estáticos para a obtenção da regra, o que é recomendável, visto que como a regra é constituídade de vários bits, se o número for pequeno, a regra terá muitos
 zeros o que pode contribuir para uma extinção.
 
-Por fim, a classe também possui dois métodos para o teste de qualidade da semente (conjunto da regra), que gera vários frames com a semente, e checa se em algumas dessas iterações foram gerados 
+Por fim, a classe também possui dois métodos para o teste de qualidade da semente (conjunto da regra), que gera vários frames com a semente, e checa se em algumas dessas iterações foram gerados
 padrões repetidos (frames idênticos, extinção, superpopulação, estagnação). fastSeedTest(regra) -> 100 iterações, goodSeedTest(regra) -> 100.000 iterações.
 
 ### Como utilizar?
@@ -92,7 +101,7 @@ Long[] regra // no caso do automato3d (recomendação: utilize o CellularAutomat
 
 Use o metodo nextGen() para transicionar o autômato, aplicando a regra passada no construtor. Você pode utilizar este método quantas vezes quiser.
 Use os métodos getFrame() e getFormatedFrame() para visualizar o estado dos autômatos. O getFrame() retorna uma representação linear do autômato, já o getFormatedFrame() retorna
-representação mais geométrica do autômato, facilitando a visualização e compreenssão de como a regra atua sobre ele (linha para o caso do 1D, um quadrado para o 2D, e as "fatias" do cubo, no caso do 3D). 
+representação mais geométrica do autômato, facilitando a visualização e compreenssão de como a regra atua sobre ele (linha para o caso do 1D, um quadrado para o 2D, e as "fatias" do cubo, no caso do 3D).
 
 ```
 // Exemplo de utilização
